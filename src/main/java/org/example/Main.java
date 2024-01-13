@@ -75,8 +75,8 @@ public class Main {
 //            Set<Student> s1=c1.getStudents();
 //            System.out.println(s1);
 
-           // Student s3=session.load(Student.class,2);
-            //session.delete(s3);
+            Student s3=session.load(Student.class,3);
+            session.delete(s3);
 
 
 
